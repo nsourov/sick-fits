@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/naimur-rahman-sourov-b2ad70/sick-fitz/dev
+datamodel: datamodel.prisma
+# secret: ${env: PRISMA_SECRET}
+hooks:
+  post-deploy:
+    - graphql get-shcema -p prisma
