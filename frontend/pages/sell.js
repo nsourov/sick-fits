@@ -1,12 +1,7 @@
-import React, { Component } from 'react'
+import CreateItems from "../components/CreateItems";
 
-export default class sell extends Component {
-  render() {
-    return (
-      <div>
-        Sell!
+const sell = () => {
+  return <CreateItems />;
+};
 
-      </div>
-    )
-  }
-}
+export default sell;
