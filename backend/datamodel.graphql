@@ -1,5 +1,11 @@
-type User {
+type Item {
   id: ID! @unique
-  name: String!
-  email: String!
+  title: String!
+  description: String!
+  image: String
+  largeImage: String
+  price: Int!
+  # createdAt: DateTime!
+  # updatedAt: DateTime!
+  # user: User!
 }
